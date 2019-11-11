@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+    <title>Margarita Ivanova: Front End Web Developer</title>
+    <meta name="description" content="Margarita Ivanova: Front End Web Developer">
+    <meta name="author" content="Margarita Ivanova">
+
+    <script async src=" https://use.fontawesome.com/d7e8e9a453.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse" id="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <p class="navbar-brand logo-nav">&lt;MI&gt;</p>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger-navigation" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Navigation toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="hamburger-navigation">
+                <ul class="nav navbar-nav list" role="menu">
+                    <li>
+                        <a href="#intro" class="main-nav active">About</a>
+                    </li>
+                    <li>
+                        <a class="main-nav" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="main-nav" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="intro" class="row">
+            <div class="col-xs-12 col-sm-8 col-sm-push-4  intro">
+                <h2 class="logo-like text-center">&lt;MI&gt;</h2>
+                <h2 class="intro-title text-center text-muted text-uppercase">Margarita Ivanova</h2>
+                <h4 class="intro-text text-center">Front End Web Developer</h4>
+                <ul class="contacts contacts-intro list">
+                    <li class="contact">
+                        <a href="mailto:mira5619@googlemail.com" target="_blank">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> email</span>
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="https://github.com/mira5619" target="_blank">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> github</span>
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="https://drive.google.com/file/d/0B7w6Ld79uppQa2ZJdGl1NkhnWTA/view?usp=sharing" target="_blank">
+                            <i class="fa fa-download img-circle" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> resume</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 skills-list">
+                <h4 class="">Skills</h4>
+                <ul class="skills">
+                    <li class="skill">HTML</li>
+                    <li class="skill">CSS</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">Responsive design</li>
+                    <li class="skill">AJAX</li>
+                    <li class="skill">Chrome Developer Tools</li>
+                    <li class="skill">Bootstrap</li>
+                    <li class="skill">Git/GitHub</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-12">
+                <h2 class="text-center projects-heading">Recent projects</h2>
+            </div>
+        </section>
+
+        <section id="projects" class="row text-center">
+            <!-- SkySwift Greyhounds Project -->
+            <div class="project-item col-xs-12 col-sm-6 col-md-4">
+                <figure>
+                    <figcaption class="project-name text-left">Skyswift Greyhounds Project</figcaption>
+                    <picture>
+                        <source media="(min-width:768px)" srcset="images/greyhounds-700.png 2x, images/greyhounds-350.png" />
+                        <source media="(min-width:400px)" srcset="images/greyhounds-1052.png 2x, images/greyhounds-526.png" />
+                        <source media="(max-width:399px)" srcset="images/greyhounds-700.png 2x, images/greyhounds-320.png" />
+                        <img class="img-thumbnail" src="images/greyhounds-320.png" alt="screenshot of the project">
+                    </picture>
+
+                </figure>
+                <div class="details">
+                    <ul class="skills">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">Scss</li>
+                        <li class="skill">Responsive design</li>
+                    </ul>
+                    <a class="source" href="https://github.com/mira5619/SkyswiftGreyhounds">View source
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- TicTacToe Game Project -->
+            <div class="project-item col-xs-12 col-sm-6 col-md-4">
+                <figure>
+                    <figcaption class="project-name text-left">Tic Tac Toe Game</figcaption>
+                    <picture>
+                        <source media="(min-width:768px)" srcset="images/ticTac-700.png 2x, images/ticTac-350.png" />
+                        <source media="(min-width:400px)" srcset="images/ticTac-1052.png 2x, images/ticTAc-526.png" />
+                        <source media="(max-width:399px)" srcset="images/ticTac-700.png 2x, images/ticTac-320.png" />
+                        <img class="img-thumbnail" src="images/ticTac-320.png" alt="screenshot of the project">
+                    </picture>
+                </figure>
+                <div class="details">
+                    <ul class="skills">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                    </ul>
+                    <a class="source" href="https://github.com/mira5619/ticTacToe">View source
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Transforms Generator Project -->
+            <div class="project-item col-xs-12 col-sm-6 col-md-4">
+                <figure>
+                    <figcaption class="project-name text-left">Transforms Generator Project</figcaption>
+                    <picture>
+                        <source media="(min-width:768px)" srcset="images/transGen-700.png 2x, images/transGen-350.png" />
+                        <source media="(min-width:400px)" srcset="images/transGen-1052.png 2x, images/transGen-526.png" />
+                        <source media="(max-width:399px)" srcset="images/transGen-700.png 2x, images/transGen-320.png" />
+                        <img class="img-thumbnail" src="images/transGen-320.png" alt="screenshot of the project">
+                    </picture>
+                </figure>
+                <div class="details">
+                    <ul class="skills">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">Bootstrap</li>
+                        <li class="skill">Responsive design</li>
+                    </ul>
+                    <a class="source" href="https://github.com/mira5619/transGen">View source
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Todo list Project -->
+            <div class="project-item col-xs-12 col-sm-6 col-md-4">
+                <figure>
+                    <figcaption class="project-name text-left">Todo List Project</figcaption>
+                    <picture>
+                        <source media="(min-width:768px)" srcset="images/todo-700.png 2x, images/todo-350.png" />
+                        <source media="(min-width:400px)" srcset="images/todo-1052.png 2x, images/todo-526.png" />
+                        <source media="(max-width:399px)" srcset="images/todo-700.png 2x, images/todo-320.png" />
+                        <img class="img-thumbnail" src="images/todo-320.png" alt="screenshot of the project">
+                    </picture>
+                </figure>
+                <div class="details">
+                    <ul class="skills">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">Responsive design</li>
+                    </ul>
+                    <a class="source" href="https://github.com/mira5619/todo">View source
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="footer-header text-center">Contacts:</h4>
+                <ul class="contacts list">
+                    <li class="contact">
+                        <a href="mailto:mira5619@googlemail.com" target="_blank">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> email</span>
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="https://github.com/mira5619">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> github</span>
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="https://drive.google.com/file/d/0B7w6Ld79uppQa2ZJdGl1NkhnWTA/view?usp=sharing">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            <span class="link-label text-muted small"> resume</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous">
+    </script>
+</body>
